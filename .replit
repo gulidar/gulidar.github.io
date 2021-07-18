@@ -1,2 +1,8 @@
 language = "nodejs"
-run = ""
+run = """
+bash
+"""
+onBoot = """
+cd ./bash
+bash ./onBoot.sh
+"""
