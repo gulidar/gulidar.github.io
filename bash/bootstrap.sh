@@ -10,8 +10,11 @@ cd ~/.local/bin
 if ! command -v hugo &> /dev/null
 then
     echo "Downloading Hugo..."
-    curl -o hugo.tar.gz -L "https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_0.85.0_Linux-64bit.tar.gz" 
+#    curl -o hugo.tar.gz -L "https://github.com/gohugoio/hugo/releases/download/v0.85.0/hugo_0.85.0_Linux-64bit.tar.gz" 
+    curl -o hugo.tar.gz -L "https://github.com/gohugoio/hugo/releases/download/v0.57.0/hugo_0.57.0_Linux-64bit.tar.gz" 
+#    curl -o hugo.tar.gz -L "https://github.com/gohugoio/hugo/releases/download/v0.14/hugo_0.14_linux_amd64.tar.gz"
     tar -xzvf hugo.tar.gz
+#    mv ./hugo_0.14_linux_amd64/hugo_0.14_linux_amd64 ./hugo
     chmod +x hugo
 fi
 
