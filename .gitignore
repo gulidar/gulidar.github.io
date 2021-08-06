@@ -1,4 +1,6 @@
 changelog.txt
 *.log
 
+gh-pages
+.jekyll-cache
 _site
