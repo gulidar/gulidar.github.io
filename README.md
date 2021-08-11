@@ -15,7 +15,12 @@ jekyll serve --host 0.0.0.0 --baseurl /app/ --config "_config.yml,_config_dev.ym
 
 # Deployment
 
-`git subtree add --prefix gh-pages origin gh-pages`
-For some reason this was needed:
-`git reset HEAD .`
-`jekyll build -s ./jekyll/index -d ./gh-pages/index
+```bash
+git worktree add gh-pages origin/gh-pages
+jekyll build -s ./jekyll/index -d ./gh-pages/index
+cp -r ./gh-pages/index/* ./gh-pages/
+cd ./gh-pages/
+git add .
+git commit -m ""
+git push
+```
