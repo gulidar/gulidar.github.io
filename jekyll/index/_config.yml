@@ -2,17 +2,17 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: https://theia-jekyll-isbur.cloud.okteto.net/
-baseurl: /app/
-title: Your Awesome Site
-email: your-email@domain.com
-author: Your Name
+url: https://gulidar.ru
+title: 
+email: isburenkov@gmail.com
+author: Игорь Гулин-Буренков
 description: > # "Write an awesome description for your new site here. 
   You can edit this line in _config.yml. It will appear in your document 
   head meta (for Google search results) and in your feed.xml site 
   description.
-copyright: 'Copyright &copy; 2015 Your Name. All Rights Reserved.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+copyright: ''
+credits: ''
+# credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #

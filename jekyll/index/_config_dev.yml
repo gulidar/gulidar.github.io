@@ -1,0 +1,15 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://theia-jekyll-isbur.cloud.okteto.net/
+baseurl: /app/
+title: Developmental Version of Site
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
