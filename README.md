@@ -23,5 +23,5 @@ cp -r ./gh-pages/index/* ./gh-pages/
 cd ./gh-pages/
 git add .
 git commit -m ""
-git push
+git push origin HEAD:gh-pages
 ```
