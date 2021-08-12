@@ -16,6 +16,7 @@ jekyll serve --host 0.0.0.0 --baseurl /app/ --config "_config.yml,_config_dev.ym
 # Deployment
 
 ```bash
+cd $GOPATH
 git worktree add gh-pages origin/gh-pages
 jekyll build -s ./jekyll/index -d ./gh-pages/index
 cp -r ./gh-pages/index/* ./gh-pages/

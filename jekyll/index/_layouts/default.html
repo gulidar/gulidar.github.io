@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
-	{% include head.html %}
+	{% include 00_head.html %}
 
 	<body>
-		{% include header.html %}
-		{% include about.html %}
-		{% include page_content.html %}
-		{% include contact.html %}
-		{% include footer.html %}
-		{% include js.html %}
+		{% include 01_header.html %}
+
+        {% comment %}
+		{% include 02_about.html %}
+        {% endcomment %}
+
+		{% include 02_page_content.html %}
+        {% include 02.5_advantages.html %}
+		{% include 03_contact.html %}
+		{% include 04_footer.html %}
+		{% include 05_js.html %}
 	</body>
 </html>

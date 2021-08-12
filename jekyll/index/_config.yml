@@ -6,10 +6,12 @@ url: https://gulidar.ru
 title: 
 email: isburenkov@gmail.com
 author: Игорь Гулин-Буренков
+# Образовательный центр Игоря и Дарины Гулиных.
+#   - это надо совать в <title>;
+#   не уверен, что местный "title" пишется в html тэг
 description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
+  Подготовка к ОГЭ, ЕГЭ, подтягивание по школьной программе, вузовские 
+  программа и экзамены, обучение языкам, программированию.
 copyright: ''
 credits: ''
 # credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
